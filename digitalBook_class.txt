@@ -15,6 +15,13 @@ This method receive instruction from the method called by the supervisor
 (Add book) and add the book to the list of Digital books.
 This method returns nothing.
 
+Pseudo code
+
+Argument: Only the object itself
+Ask the user for all required information about the book.
+Add the book in the list of digital books.
+
+
 2. Remove paper book
 ---
 
@@ -22,8 +29,17 @@ This method receive instruction from the method called by the supervisor
 (Remove book) and then remove the book to the list of Digital books.
 This method returns nothing.
 
+Pseudo code:
+
+Argument: The name of the book and the ID and the list of digital books
+Loop over the list of Digital books.
+Find the book and remove it from the list of digital books.
+
 3. See Digital Books
 ---
 
-This method let us see all Digital books.
-This method returns nothing.
+Pseudo code :
+
+Argument: List of Digital books.
+Loop over the lists.
+Print all Books with their categories and status.

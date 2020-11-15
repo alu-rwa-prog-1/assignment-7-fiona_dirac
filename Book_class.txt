@@ -15,3 +15,7 @@ Method
 
 This method let any user to see all the books in the library.
 This method returns nothing.
+
+Argument: List of Digital books and Paper books
+Loop over those two lists.
+Print all Books with their categories and status.

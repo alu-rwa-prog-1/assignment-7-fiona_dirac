@@ -19,14 +19,37 @@ This method gives the supervisor the possibility to add a book in the book colle
 It should return nothing.
 This method return the ID and name of the book.
 
+Pseudo code
+Argument :
+Ask the user for the name of the book and other required information.
+Ask the user for the category of the book.
+Create a class instance (object) of that category.
+Add it in the list of books.
+Return nothing.
+
 2. Remove Book:
 ---
 
 This method gives the supervisor the possibility to remove a book in the Library.
 This method returns nothing.
 
+Pseudo code
+Argument : List of Books
+Ask the category  of the book.
+Ask for the name and the ID of the book.
+Loop over that list of the book based on the user choice.
+Find the book
+Call a function of in either digital or paper book to be removed.
+
 3. See status of the library
 ---
 
 This method allow the Supervisor to see the status all books.
-This method returns the address of students who have not yet return books and the who still have the book after the required time.
+This method returns the address of students who have not yet return books
+and the who still have the book after the required time.
+
+Pseudo code
+Argument: List of Digital and Paper books and list of borrowed list.
+Display information about books :
+Books in the library and books borrowed
+Return nothing.

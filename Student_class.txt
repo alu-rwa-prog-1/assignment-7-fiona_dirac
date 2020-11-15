@@ -18,9 +18,25 @@ This Method allow the student to borrow a book from the library for a short
 period of time.
 The method returns the name of the book and the ID of the book.
 
+Pseudo code
+Argument : List of paper book and digital book
+Loop over the number of book
+Ask the user for the detail of the book.
+Ask for the return date.
+check if the date is not longer than 14.
+if yes : Give the book.
+If no  : Don't Give the book.
+Change the status of the books to taken.
+
 2. Return Book
 ---
 
 This method allow the user to return the book back in the library before
 exceeding the amount of time the student asked for.
 This method returns nothing.
+
+Pseudo code
+Argument : List of book borrowed
+Loop over that list
+Find the book
+Change the status to returned.

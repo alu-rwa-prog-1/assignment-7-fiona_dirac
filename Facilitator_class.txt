@@ -16,9 +16,23 @@ Method For Facilitator
 This Method allow the facilitator to borrow a book from the library for a long period of time.
 This method return the name of the book borrowed and the name of the student.
 
+Pseudo code
+Argument : List of paper book and digital book
+Ask the facilitator for the number of book.
+Loop over the number of book
+Ask the user for the detail of the book.
+Ask for the return date.
+Change the status of the books to taken.
+
 2. Return Book
 ---
 
 This method allow the user to return the book back in the library
 before exceeding the amount of time the student asked for.
 This method return nothing.
+
+Pseudo code
+Argument : List of book borrowed
+Loop over that list
+Find the book
+Change the status to returned.

@@ -13,12 +13,30 @@ Method in the supervisor class:
 
 1. Login
 
-This method allow any user to login in his/her account and start using the library based on who he is (Student, Facilitator or Supervisor).
+This method allow any user to login in his/her account and start using the
+library based on who he is (Student, Facilitator or Supervisor).
+
+Pseudo code
+Argument : Name and password and the user info file
+Loop over the user info file
+Grant access to the library if Name and password are found.
+Return: Nothing
 
 2. Log out
 
 This method allow any user to log out of the account.
 
+Pseudo code
+Change the value of the access to non permission.
+Return: Nothing
+
 3. Register
 
 This method allow any user to be part of the ALU library system
+
+Pseudo code
+Ask for the type of user.
+Call a function according to the user input.
+Create a new user Instance.
+If the new instance is a supervisor, the account should be accepted by another 
+supervisor.

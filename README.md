@@ -110,7 +110,7 @@ Status
 
 *Instance Variables:*
 
-Cite bought
+Site bought
 Number of pages
 
 *Method of the Paper book's class:*
@@ -127,11 +127,11 @@ This method receive instruction from the method called by the supervisor (Add bo
 This method receive instruction from the method called by the supervisor (Remove book) and then remove the book to the list of Paper books.
 ---
 
-#### Digital book(Child Class of Users):
+#### Digital book(Child Class of Books):
 
 *Instance Variables:*
 
-Cite bought
+Site bought
 Size of the book
 Google Drive Link
 

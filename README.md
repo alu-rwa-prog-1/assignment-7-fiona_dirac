@@ -84,7 +84,7 @@ This method allow the user to return the book back in the library before exceedi
 * Borrow Book
 
 ---
-This Method allow the student to borrow a book from the library for a long period of time.
+This Method allow the facilitator to borrow a book from the library for a long period of time.
 This same method allow the user to borrow books and hand it over to the students.
 The method returns the name of the book and the ID of the book.
 ---

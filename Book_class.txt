@@ -1,6 +1,6 @@
 Books :
 
-*Instance Variables:*
+Instance Variables:
 
 * Book ID
 * Book Name
@@ -8,3 +8,10 @@ Books :
 * Acquisition Date
 * Category
 * Status
+
+Method
+
+1. See All Books.
+
+This method let any user to see all the books in the library.
+This method returns nothing.

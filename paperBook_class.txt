@@ -21,3 +21,9 @@ This method returns nothing.
 This method receive instruction from the method called by the supervisor
 (Remove book) and then remove the book to the list of Digital books.
 This method returns nothing.
+
+3. See Paper Books
+---
+
+This method let us see all Paper books.
+This method returns nothing.

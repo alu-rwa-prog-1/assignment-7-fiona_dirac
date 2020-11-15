@@ -137,14 +137,14 @@ Google Drive Link
 
 *Method of the Digital book's class:*
 
-* Add Paper Book
-
 ---
+Add Paper Book
+---
+
 This method receive instruction from the method called by the supervisor (Add book) and add the book to the list of Digital books.
----
-
-* Remove paper book
 
 ---
+Remove paper book
+---
+
 This method receive instruction from the method called by the supervisor (Remove book) and then remove the book to the list of Digital books.
----

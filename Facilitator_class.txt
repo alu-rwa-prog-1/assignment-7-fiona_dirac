@@ -36,3 +36,42 @@ Argument : List of book borrowed
 Loop over that list
 Find the book
 Change the status to returned.
+
+Tests for the class:
+
+Test Case Description:
+Borrow more than one book at a time.
+Test Data:
+Ask for more than one book at a time using their names (strings data) : Python for everybody,
+C programming and C++ programming.
+Expected Results:
+The facilitator should be allowed to borrow all books required.
+
+Test Case Description:
+Negative test of the method Borrow book.
+Test Data:
+Pass a negative integer as the number of books to borrow.
+-3
+Expected Results:
+Raise an error. The number should be greater than zero. (own coded error to display to the user)
+
+Test Case Description:
+Positive test of the return book method.
+Test Data:
+The name and the ID of the book that was taken by the facilitator.
+Expected Results:
+The status of the book should change from taken to return.
+
+Test Case Description:
+Positive test of the borrowed book with a positive integer.
+Test Data:
+We use the number 10 to check our function.
+Expected Results:
+The facilitator should be given the possibility to borrow 10 books.
+
+Test Case Description:
+Test for returning all books after the deadline.
+Test Data:
+The facilitator returns books after the deadline. (The module time get the day the professor returned the book)
+Expected Results:
+The facilitator should be given some penalty for returning books late.

@@ -45,3 +45,42 @@ Pseudo code :
 Argument: List of paper books.
 Loop over the lists.
 Print all Books with their categories and status.
+
+
+Tests for the class:
+
+Test Case Description:
+Test for adding a paper book that is not in the library
+Test Data:
+User adds a book with all the details of the book.
+Expected Results:
+Display that it was successful and add the book to the library
+
+Test Case Description:
+Test for adding a paper book that is already in the library
+Test Data:
+User adds a book with all the details of the book.
+Expected Results:
+Display that it was not successful because the book is already in the library
+
+Test Case Description:
+Test for displaying all paper books in the library
+Test Data:
+User clicks for see all paper books option
+Expected Results:
+Display all the books in the paper books collection
+
+Test Case Description:
+Test for deletion of a paper book in the library
+Test Data:
+User clicks on delete option and enters the book details
+Expected Results:
+Successfully delete book from library and show that it was successful
+
+Test Case Description:
+Test for deletion of a paper book currently not in the library
+Test Data:
+User clicks on delete option and enters the book details
+Expected Results:
+Displays that the book is not in the library and gives option of entering another book’s
+details or exiting back to the main menu

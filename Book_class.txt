@@ -19,3 +19,41 @@ This method returns nothing.
 Argument: List of Digital books and Paper books
 Loop over those two lists.
 Print all Books with their categories and status.
+
+
+Tests for the class:
+
+Test case description:
+Positive Test for choosing between paper books and digital books
+Test data:
+User clicks paper books
+Expected Results:
+Display the paper books section with all the physical books available in the library
+
+Test case description:
+Test for exiting the book menu
+Test data:
+User selects the exit option
+Expected Results:
+Allow user to exit and display the main menu
+
+Test case description:
+Negative Test for choosing between paper books and digital books
+Test data:
+User clicks an invalid number/letter
+Expected Results:
+Display unsuccessful and show the choosing menu again
+
+Test case description:
+Positive test for display all books
+Test data:
+The list of all digital books and the list of all paper books are used as our data.
+Expected Results:
+Display All books (Digital and Paper book) sorted by alphabetical order.
+
+Test case description:
+Negative test for displaying all books.
+Test data:
+The list of only paper books.
+Expected Results:
+Raised an error. The list of digital books is also required. (own coded error).

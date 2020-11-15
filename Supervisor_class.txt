@@ -53,3 +53,41 @@ Argument: List of Digital and Paper books and list of borrowed list.
 Display information about books :
 Books in the library and books borrowed
 Return nothing.
+
+
+Tests for the class:
+
+Test case:
+Positive testing of the Add book method.
+Test Data:
+Name of the book (String) : Python for beginners + Date acquired (Int values) 2020.
+Expected Results:
+The new book appended in the collection of all books and an ID number generated and assigned to the book.
+
+Test case:
+Negative testing of the Add book method.
+Test Data:
+Empty name of the book and no Date acquired.
+Expected Results:
+Raise an error no argument passed to the function add a book.
+
+Test case:
+A positive testing of the Remove book method.
+Test Data:
+Test the method with a Book ID and I book’s name of an existing book. Ex : (001 and Python)
+Expected Results:
+The book specified should be deleted from the list of books.
+
+Test case:
+Add an already existing book to the collection of books.
+Test Data:
+We pass as argument the book’s name and Date acquired. (Ex: Python, 2021)
+Expected Results:
+Return the name of the book and the ID of the book since we can have the same book twice.
+
+Test case:
+Negative testing of removing a non-existing book.
+Test Data:
+We pass as argument the name and the ID of a book that is not in the ALU library.
+Expected Results:
+Display a message that the book does not exist in the library.

@@ -40,3 +40,42 @@ Argument : List of book borrowed
 Loop over that list
 Find the book
 Change the status to returned.
+
+Tests for the class:
+
+Test case description:
+Borrow a book that is in the library
+Test data:
+User clicks on a book that exists in the library and is available
+Expected Results:
+Book status is changed to being unavailable and borrower’s details are added, a successful lending message is displayed
+
+Test case description:
+Return a book that the user had borrowed on time
+Test data:
+The user puts in the book’s details and chooses to return
+Expected Results:
+Book status is changed to being available again and the user can get another book
+
+Test case description:
+Borrow a book for longer than 14 days (students can only borrow books for no more than 14 days)
+Test data:
+The user puts in the book’s details and chooses to return
+Expected Results:
+Book status is changed to being available again and the fine is calculated and displayed to the user for payment
+display user cannot borrow another book till payment is fulfilled
+
+Test case description:
+Borrow a book that does not exist in the library
+Test data:
+The user puts in book details of a book currently not available in the library
+Expected Results:
+Display that the book is not available and ask whether they want to choose another one or exit
+
+Test case description:
+Borrow a book in the library while they have 3 books already borrowed(users can only borrow 3 books at a time)
+Test data:
+User clicks on a book that exists in the library and is available and wants to borrow it
+Expected Results:
+Display that the book is available however, it is not available to them until they return the
+other 3 books they currently have with them first.

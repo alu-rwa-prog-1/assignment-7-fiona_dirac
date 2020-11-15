@@ -43,3 +43,41 @@ Pseudo code :
 Argument: List of Digital books.
 Loop over the lists.
 Print all Books with their categories and status.
+
+
+Tests for the class:
+
+Test Case Description:
+Positive test for the method Add digital book.
+Test Data:
+We use a digital book as our Data.
+Expected Results:
+The book is added to the list of books and paper books.
+
+Test Case Description:
+Negative test for the method Add digital book
+Test Data:
+We use a Paper book as our Data.
+Expected Results:
+The book is not added to the list of books since it won’t have some characteristics required for only digital books.
+
+Test Case Description:
+Positive test for the method remove digital book
+Test Data:
+We use a digital book as our Data.
+Expected Results:
+The book will be removed from the list of books and digital books.
+
+Test Case Description:
+Negative test for the method of removing digital books.
+Test Data:
+We use a Paper book as our Data.
+Expected Results:
+The book won’t be found as a paper book because the ID will match a Paper book.
+
+Test Case Description:
+Display all digital books
+Test Data:
+We use the list of all digital books as our data.
+Expected Results:
+We should be able to see all digital books and details about the code. Paper books won’t be displayed.

@@ -1,0 +1,24 @@
+ 15/11/2020  By Fiona Mukuhi, Dirac Murairi
+
+    Project Proposal: ALU Library Management System
+
+This project came about after the announcement of the new library on the new campus and we realized we could make
+a management system to make it easy for all ALU students, the librarian, and the ALU staff to access, use, and manage it.
+The project will mainly use Python programming language
+
+Our Objectives are:
+- enable students to easily borrow, return and access books in the library
+- enable facilitators to easily borrow, return and access books in the library(can do so in mass quantities if necessary
+for a lecture)
+- enable the librarian to be able to add and remove books to the collection
+- enable users to browse through the library for books they are interested in
+- enable users to register/login into the system
+- enable the presence of both online and physical resources
+
+Scope:
+- The project will run for the next 5 weeks
+
+Monitoring and Evaluation:
+- We will have weekly reviews of our milestones and KPIs, which will run parallel to the weekly submission assignments.
+
+This project will hopefully ease access to the school library.

@@ -106,10 +106,14 @@ This method allow the user to return the book back in the library before exceedi
 **Method For Facilitator**
 
 ---
+<<<<<<< HEAD
 1. Borrow Book
 ---
 
 This Method allow the student to borrow a book from the library for a long period of time.
+=======
+This Method allow the facilitator to borrow a book from the library for a long period of time.
+>>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 This same method allow the user to borrow books and hand it over to the students.
 The method returns the name of the book and the ID of the book.
 
@@ -133,7 +137,14 @@ This method allow the user to return the book back in the library before exceedi
 
 #### Paper Book(Child Class of Books):
 
+<<<<<<< HEAD
 **Instance Variables:**
+=======
+*Instance Variables:*
+
+Site bought
+Number of pages
+>>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 
 * Cite bought
 * Number of pages
@@ -150,16 +161,26 @@ This method receive instruction from the method called by the supervisor (Add bo
 2. Remove paper book
 ---
 
+<<<<<<< HEAD
 This method receive instruction from the method called by the supervisor (Remove book) and then remove the book to the list of Paper books.
 
 
 #### Digital book(Child Class of Users):
+=======
+#### Digital book(Child Class of Books):
+>>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 
 **Instance Variables:**
 
+<<<<<<< HEAD
 * Cite bought
 * Size of the book
 * Google Drive Link
+=======
+Site bought
+Size of the book
+Google Drive Link
+>>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 
 **Method of the Digital book's class:**
 

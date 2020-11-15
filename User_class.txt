@@ -22,3 +22,45 @@ This method allow any user to log out of the account.
 3. Register
 
 This method allow any user to be part of the ALU library system
+
+
+
+Tests for the class:
+
+Case description:
+Enter registered user credentials(email+password) for login
+Test data
+Email:f.nganga@alustudent.com
+Password: 0123456789
+The display should show the login successful
+
+Case description:
+Invalid credentials for login
+Test data:
+Email:h@gmail.com
+Password: 25467
+Expected Result:
+The display should show that the login is not successful and suggest that the user should retry or register
+
+Case description:
+Register a new user
+Test data:
+Email:h@alustudent.com
+Password:abcdef
+Expected result:
+The display should show that the registration is successful
+
+Case description:
+Registering an already registered user
+Test data:
+Email:h@gmail.com
+Password: 25467
+Expected result:
+The display should show that the user is already registered and suggest that they log in
+
+Case description:
+Logging out of an account
+Test data:
+User selecting the logout option
+Expected result:
+The user should be able to successfully log out and a message displayed

@@ -15,18 +15,15 @@
 
 **Method in the supervisor class:**
 
----
 1. Login
 ---
 
 This method allow any user to login in his/her account and start using the library based on who he is (Student, Facilitator or Supervisor).
 
----
 2. Log out
 ---
 This method allow any user to log out of the account.
 
----
 3. Register
 ---
 
@@ -46,20 +43,17 @@ This method allow any user to be part of the ALU library system
 
 **Method in the supervisor class:**
 
----
 1. Add Book
 ---
 
 This method gives the supervisor the possibility to add a book in the book collection.
 It should return nothing.  
 
----
 2. Remove Book:
 ---
 
 This method gives the supervisor the possibility to remove a book in the Library.
 
----
 3. See status of the library
 ---
 
@@ -79,14 +73,12 @@ This method returns the address of students who have not yet return books and th
 
 **Method in the Student's class:**
 
----
 1. Borrow Book
 ---
 
 This Method allow the student to borrow a book from the library for a short period of time.
 The method returns the name of the book and the ID of the book.
 
----
 2. Return Book
 ---
 
@@ -105,19 +97,11 @@ This method allow the user to return the book back in the library before exceedi
 
 **Method For Facilitator**
 
----
-<<<<<<< HEAD
 1. Borrow Book
 ---
 
-This Method allow the student to borrow a book from the library for a long period of time.
-=======
 This Method allow the facilitator to borrow a book from the library for a long period of time.
->>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
-This same method allow the user to borrow books and hand it over to the students.
-The method returns the name of the book and the ID of the book.
 
----
 2. Return Book
 ---
 
@@ -137,60 +121,43 @@ This method allow the user to return the book back in the library before exceedi
 
 #### Paper Book(Child Class of Books):
 
-<<<<<<< HEAD
 **Instance Variables:**
-=======
+
 *Instance Variables:*
 
 Site bought
 Number of pages
->>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 
 * Cite bought
 * Number of pages
 
 **Method of the Paper book's class:**
 
----
 1. Add Paper Book
 ---
 
 This method receive instruction from the method called by the supervisor (Add book) and add the book to the list of Paper books.
 
----
 2. Remove paper book
 ---
 
-<<<<<<< HEAD
 This method receive instruction from the method called by the supervisor (Remove book) and then remove the book to the list of Paper books.
 
-
-#### Digital book(Child Class of Users):
-=======
 #### Digital book(Child Class of Books):
->>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 
 **Instance Variables:**
 
-<<<<<<< HEAD
-* Cite bought
+* Site bought
 * Size of the book
 * Google Drive Link
-=======
-Site bought
-Size of the book
-Google Drive Link
->>>>>>> a21631ae75878d66af0665eb500aa4f13825b875
 
 **Method of the Digital book's class:**
 
----
 1. Add Paper Book
 ---
 
 This method receive instruction from the method called by the supervisor (Add book) and add the book to the list of Digital books.
 
----
 2. Remove paper book
 ---
 

@@ -1,0 +1,24 @@
+Facilitator (Child Class of Users)
+
+Instance Variables:
+
+* Name
+* Mail address
+* Nationality
+* Student ID
+* password
+
+Method For Facilitator
+
+1. Borrow Book
+---
+
+This Method allow the facilitator to borrow a book from the library for a long period of time.
+This method return the name of the book borrowed and the name of the student.
+
+2. Return Book
+---
+
+This method allow the user to return the book back in the library
+before exceeding the amount of time the student asked for.
+This method return nothing.

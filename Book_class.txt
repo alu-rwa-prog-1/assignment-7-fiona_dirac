@@ -1,0 +1,10 @@
+Books :
+
+*Instance Variables:*
+
+* Book ID
+* Book Name
+* Published Date
+* Acquisition Date
+* Category
+* Status

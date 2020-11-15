@@ -1,0 +1,24 @@
+Users
+
+ Users are all people who have access to the library platform
+
+Instance Variables:
+
+* Name
+* Mail address
+* Nationality
+* password
+
+Method in the supervisor class:
+
+1. Login
+
+This method allow any user to login in his/her account and start using the library based on who he is (Student, Facilitator or Supervisor).
+
+2. Log out
+
+This method allow any user to log out of the account.
+
+3. Register
+
+This method allow any user to be part of the ALU library system

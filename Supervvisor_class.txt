@@ -1,0 +1,32 @@
+Supervisor (Child Class of Users):
+
+the supervisor is the person in charge of the library.
+We can have more than one supervisors.
+
+Instance Variables:
+
+* Name
+* Mail address
+* Nationality
+* password
+
+Method in the supervisor class:
+
+1. Add Book
+---
+
+This method gives the supervisor the possibility to add a book in the book collection.
+It should return nothing.
+This method return the ID and name of the book.
+
+2. Remove Book:
+---
+
+This method gives the supervisor the possibility to remove a book in the Library.
+This method returns nothing.
+
+3. See status of the library
+---
+
+This method allow the Supervisor to see the status all books.
+This method returns the address of students who have not yet return books and the who still have the book after the required time.

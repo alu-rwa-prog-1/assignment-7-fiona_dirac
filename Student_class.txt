@@ -1,0 +1,26 @@
+Students (Child Class of Users)
+
+Instance Variables:
+
+* Name
+* Mail address
+* Nationality
+* Student ID
+* Number of Book
+* password
+
+Method in the Student's class:
+
+1. Borrow Book
+---
+
+This Method allow the student to borrow a book from the library for a short
+period of time.
+The method returns the name of the book and the ID of the book.
+
+2. Return Book
+---
+
+This method allow the user to return the book back in the library before
+exceeding the amount of time the student asked for.
+This method returns nothing.

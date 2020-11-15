@@ -1,0 +1,22 @@
+# This file contains all our classes and their relationships
+
+Users(Parent class)
+---this file is about the users of the system and what they can do---
+
+Supervisors(Child Class of Users)
+---this file is for the administrators running the system and what they can do---
+
+Students(Child Class of Users)
+---this file caters to the students of the school as users and what they can do---
+
+Facilitators(Child Class of Users)
+---this file caters to the facilitators of the school as users and what they can do---
+
+Books(Parent class)
+---this file caters to the books currently in the library and what can happen to them---
+
+Paper Book(Child Class of Books)
+---this file caters to the physical books currently in the library and what can happen to them---
+
+Digital Book(Child Class of Books)
+---this file caters to the digital books currently in the library and what can happen to them---

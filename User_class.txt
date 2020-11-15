@@ -29,9 +29,10 @@ Tests for the class:
 
 Case description:
 Enter registered user credentials(email+password) for login
-Test data
+Test data:
 Email:f.nganga@alustudent.com
 Password: 0123456789
+Expected Result:
 The display should show the login successful
 
 Case description:
